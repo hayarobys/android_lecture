@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:columnCount="3">
+
+	<!--columnCount: horizontal에서의 열 의 갯수 지정.
+		rowCount: vertical에서의 행 의 갯수 지정. rowCount의 행 갯수를 넘어가면 오른쪽으로
+		넘어가지만, 화면 크기가 작을경우 화면 영역을 넘어가버리기 때문에 크게 의미있는 속성은 아니다.
+
+		vertical에서 두 속성을 함께 써봤자 rowCount만 인식된다.
+		horizontal에선 columnCount만 인식되구.
+	-->
+
+	<Button android:text="View1"
+			android:layout_columnSpan="2"
+			android:layout_gravity="fill"/>
+	<!--columnSpan: 열과 열 합치기. 그냥 공백으로 자리만 차지하는듯이 보이므로
+		gravity="fill"을 함께써서 가시적으로 합쳐진 모습을 보여주자.-->
+
+	<Button android:text="View3"
+			android:layout_rowSpan="2"
+			android:layout_gravity="fill_vertical"/>
+	<!--rowSpan: 행과 행 합치기. 그냥 공백으로 자리만 차지하는듯이 보이므로
+		gravity="fill_vertical"을 함께써서 가시적으로 합쳐진 모습을 보여주자.-->
+
+	<Button android:text="View4"/>
+	<Button android:text="View5"/>
+
+
+</GridLayout>

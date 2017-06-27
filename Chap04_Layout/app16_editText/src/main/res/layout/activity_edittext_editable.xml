@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--EditText가 TextView를 상속받았음을 알아보자.-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:editable="false"
+        android:text="Name"
+        android:inputType="none"/>
+    <!--android:inputType="textPersonName" - 한줄만 입력 가능
+        editable="false"를 쓸거면 android:inputType="none"으로 하거나 안써야 함.
+    -->
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:digits="012AaBbCc글"
+        android:inputType="textMultiLine"/>
+    <!--android:inputType="textMultiLine" - 여러줄 입력 가능
+        android:digits="012AaBbCc" - 여기 적은 문자만 입력 가능
+    -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input text"
+        android:textColorHint="#7f29ff"/>
+    <!--android:hint="input text" - html의 placeholder와 유사한 역할-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="#ffbc35"
+        android:text="SelectAllOnFocus"
+        android:selectAllOnFocus="true"/>
+    <!--android:selectAllOnFocus="true" - 이 View를 터치시 모든 글이 선택됨. 기본값은 false-->
+
+
+</LinearLayout>

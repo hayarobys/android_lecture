@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="right"
+	android:ignoreGravity="@+id/view2">
+	<!--xml은 위부터 한 줄 씩 읽어가기에 좀 이상해보여도 여기서 아이디를
+		생성하고 밑에서 아이디를 참조하는 듯한 거꾸로된 표현을 쓸 수 밖에 없었다.
+		이런 문제때문에 지금에와선 아예 아이디 생성시 +를 무조건 써서
+		생성/참조를 구분하지 않게 되었다.-->
+	<!--layout_ 가 붙으면 부모에게 알려주어 내게 적용될 속성이고,
+		안붙으면 나에게 알림으로써 내 자식들에게 적용될 속성이다.-->
+
+	<Button
+		android:layout_width="130dp"
+		android:layout_height="130dp"
+		android:text="View 1"/>
+
+	<Button
+		android:id="@+id/view2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 2"/>
+
+</RelativeLayout>
+<!--Relative 레이아웃은 Constraints 레이아웃과 다르게
+	상관관계를 정의해주지 않아도 에러가 나지 않는다.-->

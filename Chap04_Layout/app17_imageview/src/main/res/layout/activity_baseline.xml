@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="200dp"
+	android:orientation="horizontal"
+	android:background="#9f9797">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="baseLineAlign"/>
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#0fafff"
+		android:src="@drawable/abcd"
+		android:baseline="50dp"
+		android:adjustViewBounds="true"/>
+	<!--android:baselineAlignBottom="true" - 기본값은 false.
+				다른 뷰들을 이 이미지의 베이스라인에 맞추어 정렬
+		android:baseline="50dp" - 최상단을 기준으로 설정한 값만큼 떨어진 곳에 베이스라인 지정.
+	-->
+
+</LinearLayout>

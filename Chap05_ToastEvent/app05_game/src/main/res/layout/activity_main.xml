@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/game">
+
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="120dp"
+		android:text="행운의 주인공이 되세요..."
+		android:textSize="25dp"
+		android:textStyle="bold|italic"
+		android:textColor="#1f52df"
+		android:gravity="center"
+		android:layout_margin="10dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/btn1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="선택1"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:background="@drawable/round_box"
+			android:onClick="btn1Click"/>
+
+		<Button
+			android:id="@+id/btn2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="선택2"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:background="@drawable/round_box"
+			android:onClick="btn2Click"/>
+
+		<Button
+			android:id="@+id/btn3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="선택3"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:background="@drawable/round_box"
+			android:onClick="btn3Click"/>
+
+		<Button
+			android:id="@+id/btn4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="선택4"
+			android:layout_weight="1"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:background="@drawable/round_box"
+			android:onClick="btn4Click"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:text="당첨 결과 : "
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:gravity="center"
+		android:textColor="#f00"/>
+	<!--텍스트 관련 단위는 sp를 주로 사용한다.-->
+	<!--또한 TextView에선 한글에 bold 속성이 먹지 않으므로 자바 코드상에서
+		직접 적용하는 방법을 써야한다.
+		textEx5.setText("한글 볼드 테스트");
+		textEx5.setPaintFlags(
+				textEx5.getPaintFlags() | Paint.FAKE_BOLD_TEXT_FLAG
+		);
+
+		지금버전은 bold를 넣으면 italic으로 보이는 버그가 있는듯 하다.
+		막상 안드로이드 기기에서 켜보면 또 제대로 적용되어있군?
+	-->
+
+
+</LinearLayout>

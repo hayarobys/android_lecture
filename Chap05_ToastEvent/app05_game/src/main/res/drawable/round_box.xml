@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--
+		안드로이드에선 이미지뿐만 아니라, xml로 그리는게 가능하다.
+		물론 이미지가 더 이쁘기에 잘 쓰는 기능은 아니라고 한다.
+	-->
+
+	<!--solid - 윤곽 태그-->
+	<solid	android:color="#228fe9"/>
+
+	<!--corners - 모서리 곡률-->
+	<corners android:radius="50dp"/>
+
+
+
+</shape>

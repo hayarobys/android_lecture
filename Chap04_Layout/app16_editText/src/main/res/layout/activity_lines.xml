@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0"
+        android:text="학교 종이 땡땡땡 어서 모이자 선생님이 우리를 기다리신다."
+        android:layout_marginBottom="10dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:lineSpacingExtra="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0"
+        android:layout_marginBottom="10dp"
+        android:text="학교 종이 땡땡땡"
+        android:minLines="3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0"
+        android:layout_marginBottom="10dp"
+        android:text="학교 종이 땡땡땡"
+        android:lines="3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0"
+        android:text="학교 종이 땡땡땡  어서 모이자 선생님이 우리를 기다리신다."
+        android:lines="3"
+        android:lineSpacingMultiplier="3"/>
+
+    <!--
+        minLines
+        lines
+        lineSpacingMultiplier
+    -->
+
+    <!-- * android:maxLines="3" : 최대 라인수, 여기서는 3
+            => 글자가 아무리 많아도 최대 3라인까지만 보여진다.
+
+        * android:ellipsize="end"
+            => 뒤에 문구가 더 있다면 있음을 표기(...으로)
+            => maxLines에서 elllipsize의 start, middle 속성은 동작X
+
+        * android:minLines="3" : 최소 라인수, 여기서는 3
+            => 글자가 아무리 적어도 최소 3라인을 보여준다.
+
+        * android:lines="3" : 지정 라인수 , 여기서는 3
+            => 글자가 아무리 적던 많던 3라인만을 보여준다.
+
+        * android:lineSpacingExtra="20dp" : 줄 간격 조절, 수치로 조절
+
+        * android:lineSpacingMultiplier="3" : 줄간격 조절, 여기서는 3줄 줄사이 간격이된다.
+    -->
+</LinearLayout>

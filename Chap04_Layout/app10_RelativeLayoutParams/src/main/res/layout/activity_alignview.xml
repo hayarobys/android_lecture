@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--파일명에 대문자 안섞이게 주의-->
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<Button
+		android:id="@+id/baseView"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:text="BaseView"
+		android:layout_centerInParent="true"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="1"
+		android:layout_above="@+id/baseView"
+		android:layout_toLeftOf="@+id/baseView"/>	<!--above: 기준 바로위에 밀착 / A toLeftOf B: A를 B의 왼쪽면에 밀착-->
+	<!--과거엔 참조할 경우 +를 빼주었지만, 위부터 순서대로 읽는 xml특성상
+		선언부가 참조부보다 아래 위치할 경우 문제가 생기기에, 요즘은 그냥 몽땅 +를 붙여버린다.-->
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="2"
+		android:layout_above="@+id/baseView"
+		android:layout_alignLeft="@+id/baseView"/>
+	<!--alignLeft: 내 왼쪽면을 타겟의 왼쪽면과 일치되게 정렬 / alignParentLeft: 부모의 왼쪽면에 밀착-->
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="3"
+		android:layout_above="@+id/baseView"
+		android:layout_alignRight="@+id/baseView"
+		android:id="@+id/button"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="4"
+		android:layout_toRightOf="@+id/baseView"
+		android:layout_above="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="5"
+		android:layout_toLeftOf="@+id/baseView"
+		android:layout_alignTop="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="6"
+		android:layout_alignBottom="@+id/baseView"
+		android:layout_toLeftOf="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="7"
+		android:layout_below="@+id/baseView"
+		android:layout_toLeftOf="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="8"
+		android:layout_alignBottom="@+id/baseView"
+		android:layout_toRightOf="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="9"
+		android:layout_below="@+id/baseView"
+		android:layout_toRightOf="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="10"
+		android:layout_below="@+id/baseView"
+		android:layout_alignLeft="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="11"
+		android:layout_below="@+id/baseView"
+		android:layout_alignRight="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="12"
+		android:layout_alignTop="@+id/baseView"
+		android:layout_toRightOf="@+id/baseView"/>
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="13"
+		android:layout_alignBaseline="@+id/baseView"
+		android:layout_toLeftOf="@+id/baseView"/>
+	<!--alignBaseline: 대상과 baseLine을 일치시킨다. 베이스라인이란 글자가 써지는 줄을 말한다.
+		p, q, y 등 꼬리보다 살짝 위쪽. a, b, c같은 꼬리없는 문자의 바닥 줄.-->
+
+	<Button
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:text="14"
+		android:layout_above="@+id/baseView"
+		android:layout_centerHorizontal="true"/>
+	<!--이 부분만은 자바코드상에서 대상View의 가로길이를 불러와서 나누기 2한 값으로 세팅해줘야겠다.
+		부모대상은 있는데, ID대상으로는 완전 자동 가운데 정렬 속성을 못찾겠군.-->
+
+</RelativeLayout>
+<!--Relative 레이아웃은 Constraints 레이아웃과 다르게
+	상관관계를 정의해주지 않아도 에러가 나지 않는다.-->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:columnCount="3">
+
+	<!--columnCount: horizontal에서의 열 의 갯수 지정.
+		rowCount: vertical에서의 행 의 갯수 지정. rowCount의 행 갯수를 넘어가면 오른쪽으로
+		넘어가지만, 화면 크기가 작을경우 화면 영역을 넘어가버리기 때문에 크게 의미있는 속성은 아니다.
+
+		vertical에서 두 속성을 함께 써봤자 rowCount만 인식된다.
+		horizontal에선 columnCount만 인식되구.
+	-->
+
+	<Button android:text="View1"/>
+	<Button android:text="View2 Long Long"/>
+	<Button android:text="View3"/>
+	<Button android:text="\n View4 \n"/>
+	<Button android:text="View5"
+			android:layout_gravity="left|right|bottom|top"/>
+	<!--그리드 레이아웃에서 가변영역 주는법.
+		android:layout_gravity="left|right|bottom|top"
+		android:layout_gravity="fill"
+		android:layout_gravity="fill_horizontal|fill_vertical"
+	-->
+	<Button android:text="View6"/>
+
+
+</GridLayout>

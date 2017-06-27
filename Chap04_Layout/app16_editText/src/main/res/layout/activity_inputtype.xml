@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abcd"
+        android:password="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="phoneNumber='true'"
+        android:phoneNumber="true"/>
+    <!--phoneNumber - 숫자 자판기-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="none"
+        android:inputType="none"/>
+    <!--inputType - 디프리케이티드 된 속성들의 대체속성
+        none - 일반자판 + 엔터키 입력 가능(현재 에딧창에서 줄바꿈)
+    -->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="text"
+        android:inputType="text"/>
+    <!--inputType="text" - 일반자판 + 화살표(다음 에딧창으로 포커스 이동)-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:inputType="phone"/>
+    <!--phone - 전화번호 입력용 숫자+특문 자판-->
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="textNoSuggestions"
+        android:inputType="textNoSuggestions"/>
+    <!--textNoSuggestions - 안드로이드 기본 자판 사용시, 추천단어 출력 기능 사용 안 함.-->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="number"
+		android:inputType="number"/>
+	<!--number - 자연수 입력용 숫자패드(음수, 소수점 입력 불가)-->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="numberSigned"
+		android:inputType="numberSigned"/>
+	<!--numberSigned - 음수 입력 가능한 숫자 패드(소수점 입력 불가)-->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="numberDecimal"
+		android:inputType="numberDecimal"/>
+	<!--numberDecimal - 소수점 입력 가능한 숫자 패드(음수 입력 불가)-->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="time"
+		android:inputType="time"/>
+	<!--time - 숫자패드 + 콜론 -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="date"
+		android:inputType="date"/>
+	<!--date - 숫자패드 + 슬래시 -->
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="true"> <!--내가 포함한 뷰들을 베이스라인에 정렬-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View 1"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View 2"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:text="View 3"
+        android:textAllCaps="false"
+        android:textSize="40dp"/>   <!--텍스트 사이즈가 다 다를때,
+                            가장 큰 텍스트의 베이스라인에 맞추어 정렬.-->
+    <!--textAllCaps 의 기본값은 true. false로 할시 자동 대문자변환이 해제됨.-->
+</LinearLayout>

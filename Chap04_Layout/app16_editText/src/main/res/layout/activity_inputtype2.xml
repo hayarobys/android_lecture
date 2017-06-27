@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="datetime"
+		android:inputType="datetime"/>
+	<!-- datetime - 숫자패드 + 슬래시와 콜론 -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="textCapCharacters"
+		android:inputType="textCapCharacters"/>
+	<!-- textCapCharacters	- 커스텀 키보드: 일반 영문패드 포커싱 + 띄어쓰기시 대문자 입력모드
+							- 기본 키보드: 이전세팅에 관계없이 계속 대문자 입력모드로 변환.
+								강제로 한글자씩 소문자 입력은 가능.
+	-->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="textCapWords"
+		android:inputType="textCapWords"/>
+	<!-- textCapWords - 기본 키보드 사용시 단어의 첫글자만 대문자로, 나머지 글자는 소문자로 입력할때 사용. -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="textCapSentences"
+		android:inputType="textCapSentences"/>
+	<!-- textCapSentences - 기본 키보드 사용시 문장의 첫글자만 대문자로, 나머지 글자는 소문자로 입력유도 -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="textPassword"
+		android:inputType="textPassword"/>
+	<!-- textPassword - 문자 비밀번호 입력 가능. 일반 키보드 노출 -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="numberPassword"
+		android:inputType="numberPassword"/>
+	<!-- numberPassword - 숫자 비밀번호 입력 가능. 숫자패드 노출. -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="textShortMessage"
+		android:inputType="textShortMessage"/>
+	<!-- textShortMessage - 일반 키패드 + 이모티콘 버튼 -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="textEmailAddress"
+		android:inputType="textEmailAddress"/>
+	<!-- textEmailAddress - 이메일 입력 패드 노출 -->
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="textUri"
+		android:inputType="textUri"/>
+	<!-- textUri - 웹주소 입력 패드 노출 -->
+</LinearLayout>

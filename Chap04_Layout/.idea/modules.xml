@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chap04_Layout.iml" filepath="$PROJECT_DIR$/Chap04_Layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app02_ConstraintLayout/app02_ConstraintLayout.iml" filepath="$PROJECT_DIR$/app02_ConstraintLayout/app02_ConstraintLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app03_ConstraintLayout2/app03_ConstraintLayout2.iml" filepath="$PROJECT_DIR$/app03_ConstraintLayout2/app03_ConstraintLayout2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app04_LinearLayout/app04_LinearLayout.iml" filepath="$PROJECT_DIR$/app04_LinearLayout/app04_LinearLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app05_xmlLinearLayout/app05_xmlLinearLayout.iml" filepath="$PROJECT_DIR$/app05_xmlLinearLayout/app05_xmlLinearLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app06_javaLinearLayout/app06_javaLinearLayout.iml" filepath="$PROJECT_DIR$/app06_javaLinearLayout/app06_javaLinearLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app07_ui/app07_ui.iml" filepath="$PROJECT_DIR$/app07_ui/app07_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app08_LinearLayoutParams/app08_LinearLayoutParams.iml" filepath="$PROJECT_DIR$/app08_LinearLayoutParams/app08_LinearLayoutParams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app09_RelativeLayout/app09_RelativeLayout.iml" filepath="$PROJECT_DIR$/app09_RelativeLayout/app09_RelativeLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app10_RelativeLayoutParams/app10_RelativeLayoutParams.iml" filepath="$PROJECT_DIR$/app10_RelativeLayoutParams/app10_RelativeLayoutParams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app11_FrameLayout/app11_FrameLayout.iml" filepath="$PROJECT_DIR$/app11_FrameLayout/app11_FrameLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app12_framelayoutparams/app12_framelayoutparams.iml" filepath="$PROJECT_DIR$/app12_framelayoutparams/app12_framelayoutparams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app13_TableLayout/app13_TableLayout.iml" filepath="$PROJECT_DIR$/app13_TableLayout/app13_TableLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app13_TableLayoutParams/app13_TableLayoutParams.iml" filepath="$PROJECT_DIR$/app13_TableLayoutParams/app13_TableLayoutParams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app14_GridLayout/app14_GridLayout.iml" filepath="$PROJECT_DIR$/app14_GridLayout/app14_GridLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app15_GridLayoutParams/app15_GridLayoutParams.iml" filepath="$PROJECT_DIR$/app15_GridLayoutParams/app15_GridLayoutParams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app16_editText/app16_editText.iml" filepath="$PROJECT_DIR$/app16_editText/app16_editText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app17_imageview/app17_imageview.iml" filepath="$PROJECT_DIR$/app17_imageview/app17_imageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app18_CheckBox/app18_CheckBox.iml" filepath="$PROJECT_DIR$/app18_CheckBox/app18_CheckBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app19_RadioButton/app19_RadioButton.iml" filepath="$PROJECT_DIR$/app19_RadioButton/app19_RadioButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app20_Switch/app20_Switch.iml" filepath="$PROJECT_DIR$/app20_Switch/app20_Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildtimetest/buildtimetest.iml" filepath="$PROJECT_DIR$/buildtimetest/buildtimetest.iml" />
+    </modules>
+  </component>
+</project>

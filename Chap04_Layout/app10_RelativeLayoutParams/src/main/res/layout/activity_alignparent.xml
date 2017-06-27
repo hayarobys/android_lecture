@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--레이아웃 파일명은 전부 소문자로 적어야한다.-->
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<Button
+		android:id="@+id/view1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 1 좌상"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"/>
+	<!--접두어로 layout_이 붙은건 부모에게 전달하는 정보를 의미.
+		접두어에 아무것도 붙지 않은 text 같은건 이 View 고유의 속성을 의미-->
+
+	<Button
+		android:id="@+id/view2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 2 우상"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"/>
+
+	<Button
+		android:id="@+id/view3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 3 좌하"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"/>
+
+	<Button
+		android:id="@+id/view4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 4 우하"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"/>
+
+	<Button
+		android:id="@+id/view5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 5 중앙"
+		android:layout_centerInParent="true"/>
+
+	<Button
+		android:id="@+id/view6"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 6 좌"
+		android:layout_centerVertical="true"
+		android:layout_alignParentLeft="true"/>
+
+	<Button
+		android:id="@+id/view7"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 7 상"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"/>
+
+	<Button
+		android:id="@+id/view8"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 8 우"
+		android:layout_centerVertical="true"
+		android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+<!--Relative 레이아웃은 Constraints 레이아웃과 다르게
+	상관관계를 정의해주지 않아도 에러가 나지 않는다.-->

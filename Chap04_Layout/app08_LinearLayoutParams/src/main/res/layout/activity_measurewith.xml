@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FF0"
+    android:measureWithLargestChild="true">
+    <!--android:measureWithLargestChild 기본값은 false.
+        true일 경우, 내가 가진 요소들중 가장 큰
+        width(horizontal)/height(vertical)에 맞추어 전체 폭을 고정
+        true일 경우 최댓값이 아닌 폭들과 가중치는 무시해버림.
+
+        만약 height="0dp"를 주면 특이한 현상이 벌어짐.
+        가중치를 읽는것 같지는 않는데 동일폭으로 분할 적용되는 현상 발생.
+        가급적 섞어쓰지 말자. 기본은 height 속성과 함께 쓰는 속성이다.
+    -->
+
+    <!--android:measureWithLargestChild가 기본값(false)인 상태에서
+        가중치와 width(horizontal)/height(vertical)가 동시에 적용되어 있을 경우
+        가중치를 무시. 직접 설정한 width/height에 맞추어 고정.
+    -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="btn1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="2"
+        android:text="btn2" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_weight="3"
+        android:text="btn3" />
+</LinearLayout>

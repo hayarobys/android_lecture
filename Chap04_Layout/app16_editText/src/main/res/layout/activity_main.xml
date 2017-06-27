@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--View의 기본속성 알아보기-->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<!--텍스트 뷰만의 속성 알아보기-->
+	<TextView
+		android:id="@+id/textView0"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#ddd"
+		android:text="중앙 정보기술 인재개발원 / 중앙정보처리 학원"
+		android:textColor="#88ee00aa"
+		android:textSize="25dp"
+		android:textStyle="italic|bold"
+		android:typeface="sans"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever"
+		/>
+	<!--textColor="#argb"
+		typeface="
+			sans: 동일한 두께에 꾸미는 모양이 없음.
+			serif: 글자 두께가 다르면서, 시작과 끝에 독특한 모양이 있음.
+			monospace: 고정폭 글자
+		"
+		@deprecated android:singleLine="true": 기본값은 false. true 사용시 한 줄로 적히다 화면을 넘어가면 ...으로 대체.
+		이젠 android:maxLines="1" 을 대신 사용하자.
+		maxLines는 화면을 넘어가면 그냥 잘라버리고 ... 같은 아무런 피드백을 안준다.
+
+		ellipsize="
+			marguee: marqueeRepeatLimit과 함께 사용. 반복 횟수 지정. 숫자로 써도 되고 marquee_forever로
+			무한반복도 가능. 자바코드상에서 setSelected(true); 사용 할 것.
+			start: 시작에 말 줄임표
+			end: 끝에 말 줄임표
+			middle: 중간에 말 줄임표
+			none: 줄임표 사용 안 함.
+		"
+	-->
+
+
+	<!--공통적인 속성들 알아보기-->
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:text="안녕하세요"
+		android:background="@drawable/ic_launcher"
+		android:layout_gravity="right"
+		android:gravity="bottom"
+		android:layout_marginRight="30dp"
+		android:paddingBottom="30dp"
+		android:visibility="visible"/>
+	<!--gravity: 뷰 박스 내부의 텍스트같은 요소들을 정렬. background요소엔 적용되지 않음.-->
+	<!--layout_gravity: 뷰 박스 자체를 부모 레이아웃 상에서 정렬-->
+
+<!--
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:text="id 입력"
+		android:background="#ffa"/>
+
+
+	<EditText
+		android:id="@+id/editText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="아이디를 입력하세요." />-->
+</LinearLayout>

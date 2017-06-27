@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--레이아웃 파일의 이름엔 소문자,숫자,언더바만 사용 가능하다-->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="#9f9797">
+
+	<ImageView
+		android:layout_width="200dp"
+		android:layout_height="400dp"
+		android:background="#0fafff"
+		android:src="@drawable/tulips"
+		android:scaleType="fitXY"/>
+	<!--android:scaleType="
+			matrix - 원본 이미지의 좌상단을 이미지뷰의 좌상단부터 뿌려줌.
+			center - 원본 이미지의 중앙을 이미지뷰의 좌상단부터 뿌려줌.
+			centerInside - 원본 이미지를 부모 크기에 맞추어 전면에 보이는 내 영역에 중앙정렬하여 뿌려줌.
+			centerCrop - 이미지뷰 크기만큼 이미지의 중앙부분을 잘라넣음. 비율유지.
+			fitXY - 이미지뷰 크기에 맞추어 이미지를 리사이징해 꽉채워 넣음. 유일하게 비율이 깨지는 속성값.
+			... - 등등등 많음.
+		"
+
+	-->
+
+</LinearLayout>

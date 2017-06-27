@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.model.choong.chap04_layout.MainActivity">
+
+	<!--선을 꾸불꾸불한것으로 맞춰두면(match constraints)
+		width, height 값이 0이 된다.-->
+	<Button
+		android:id="@+id/button"
+		android:layout_width="185dp"
+		android:layout_height="wrap_content"
+		android:text="Button"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintVertical_bias="0.474"
+		app:layout_constraintHorizontal_bias="0.502"
+		/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app02_ConstraintLayout" />
+            <option value="$PROJECT_DIR$/app03_ConstraintLayout2" />
+            <option value="$PROJECT_DIR$/app04_LinearLayout" />
+            <option value="$PROJECT_DIR$/app05_xmlLinearLayout" />
+            <option value="$PROJECT_DIR$/app06_javaLinearLayout" />
+            <option value="$PROJECT_DIR$/app07_ui" />
+            <option value="$PROJECT_DIR$/app08_LinearLayoutParams" />
+            <option value="$PROJECT_DIR$/app09_RelativeLayout" />
+            <option value="$PROJECT_DIR$/app10_RelativeLayoutParams" />
+            <option value="$PROJECT_DIR$/app11_FrameLayout" />
+            <option value="$PROJECT_DIR$/app12_framelayoutparams" />
+            <option value="$PROJECT_DIR$/app13_TableLayout" />
+            <option value="$PROJECT_DIR$/app13_TableLayoutParams" />
+            <option value="$PROJECT_DIR$/app14_GridLayout" />
+            <option value="$PROJECT_DIR$/app15_GridLayoutParams" />
+            <option value="$PROJECT_DIR$/app16_editText" />
+            <option value="$PROJECT_DIR$/app17_imageview" />
+            <option value="$PROJECT_DIR$/app18_CheckBox" />
+            <option value="$PROJECT_DIR$/app19_RadioButton" />
+            <option value="$PROJECT_DIR$/app20_Switch" />
+            <option value="$PROJECT_DIR$/buildtimetest" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

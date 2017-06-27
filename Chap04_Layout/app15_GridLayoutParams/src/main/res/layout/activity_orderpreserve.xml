@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="210dp"
+	android:layout_height="wrap_content"
+	android:background="#FF0"
+	android:orientation="horizontal"
+	android:columnCount="5"
+	android:columnOrderPreserved="false">
+	<!--columnOrderPreserved: 기본값은 true. 이 상태에선 그냥 순서대로 뷰가 위치한다.
+		false로 세팅하면, 아무것도 입력하지 않은 열이 존재할때,
+		그 열을 기준으로 우측의 뷰들을 기준열 좌측으로 모두 보일때까지 당겨온다.
+	-->
+
+	<TextView
+		android:layout_columnSpan="5"
+		android:layout_gravity="center_horizontal"
+		android:text="Input Name"
+		android:textSize="25dp"/>
+	<TextView
+		android:text="Name : "/>
+	<EditText
+		android:layout_width="150dp"/>
+	<Button
+		android:text="OKabcdefghijklmn"
+		android:layout_row="2"
+		android:layout_column="3"/>
+
+	<Button
+		android:text="2"
+		android:layout_row="2"
+		android:layout_column="4"/>
+</GridLayout>
+
+	<!--
+	<?xml version="1.0" encoding="utf-8"?>
+	<GridLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#FF0"
+		android:orientation="horizontal"
+		android:columnCount="4"
+		android:columnOrderPreserved="true">
+		&lt;!&ndash;columnOrderPreserved: 인덱스의 오름차순으로 정렬.
+			layout_column 속성과 함께 사용.&ndash;&gt;
+
+		&lt;!&ndash;columnCount: horizontal에서의 열 의 갯수 지정.
+			rowCount: vertical에서의 행 의 갯수 지정. rowCount의 행 갯수를 넘어가면 오른쪽으로
+			넘어가지만, 화면 크기가 작을경우 화면 영역을 넘어가버리기 때문에 크게 의미있는 속성은 아니다.
+
+			vertical에서 두 속성을 함께 써봤자 rowCount만 인식된다.
+			horizontal에선 columnCount만 인식되구.
+		&ndash;&gt;
+
+		<Button android:text="View1"
+				android:layout_column="2"/>
+		<Button android:text="View2"
+				android:layout_column="2"/>
+		<Button android:text="View3"/>
+
+
+	</GridLayout>
+	-->

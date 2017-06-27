@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:rowCount="2"
+	android:useDefaultMargins="true">
+	<!--useDefaultMargins: 기본값은 false.
+		true일 경우 8dp정도의 기본적인 간격을 부여한다.
+		마진이 8dp가 아니라 View 와 View 간 간격이 8dp임에 유의.
+		이 속성만으로 이 간격을 수정할 순 없다. 더 넓거나 좁게 하고 싶다면 다른 속성을 이용할 것.
+		-->
+
+	<!--columnCount: horizontal에서의 열 의 갯수 지정.
+		rowCount: vertical에서의 행 의 갯수 지정. rowCount의 행 갯수를 넘어가면 오른쪽으로
+		넘어가지만, 화면 크기가 작을경우 화면 영역을 넘어가버리기 때문에 크게 의미있는 속성은 아니다.
+
+		vertical에서 두 속성을 함께 써봤자 rowCount만 인식된다.
+		horizontal에선 columnCount만 인식되구.
+	-->
+
+	<Button android:text="View1"/>
+	<Button android:text="View2"/>
+	<Button android:text="View3"/>
+	<Button android:text="View4"/>
+	<Button android:text="View5"/>
+
+
+</GridLayout>

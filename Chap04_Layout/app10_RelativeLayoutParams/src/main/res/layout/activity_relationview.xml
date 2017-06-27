@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Relative 레이아웃에서 view요소를 숨길때 주의사항.-->
+
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<Button
+		android:id="@+id/view1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 1"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:visibility="gone"/>	<!--우상단 위치-->
+	<!--최종적으로 참조되는 view1을 gone 시키자 이를 참조하던 view2가 (0,0)으로 이동하고,
+		view2를 참조하는 view3는 자연스레 좌측 화면밖으로 삐져나가 버렸다.
+		이를 막기위해 view2에 layout_alignWithParentIfMissing 속성을 부여.
+		-->
+
+	<Button
+		android:id="@+id/view2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 2"
+		android:layout_below="@+id/view1"
+		android:layout_toLeftOf="@+id/view1"
+		android:layout_alignWithParentIfMissing="true"/>
+	<!--layout_alignWithParentIfMissing 만약 내가 참조중인 부모(대상?부모?)가 사라지면
+		나를 대신 할당하라는 의미.-->
+	<!--visibility 속성: gone은 영역숨김/ invisible은 영역은 놔두고 모습만 숨김/ visible은 기본값-->
+	<!--gone을 쓰면 이걸 참조하고 있던 다른 view3가 마치 view1을 참조하는듯이 변화함.
+		알고리즘이 어떻게 되는거지?-->
+
+	<Button
+		android:id="@+id/view3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="View 3"
+		android:layout_toLeftOf="@+id/view2"
+		android:layout_below="@+id/view2"/>
+
+</RelativeLayout>

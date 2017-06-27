@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    적어도 현재버전까지는 다른 레이아웃과 다르게 ConstraintLayout의
+        패키지명을 명시해줘야 한다.-->
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.model.choong.chap04_layout.MainActivity">
+	<!--android: 으로 이름이 붙은건 내부 api에 포함된 기본 속성들을 의미-->
+	<!--app: 로 이름이 붙은건 외부 라이브러리를 의미함.-->
+	<!--위쪽 네임스페이스를 보면 알 수 있음.-->
+	<Button
+		android:id="@+id/button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="안녕하세요. 반갑습니다!"
+		android:layout_marginLeft="20dp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="20dp"/>
+</android.support.constraint.ConstraintLayout>

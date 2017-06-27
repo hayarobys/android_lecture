@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="270dp"
+	android:layout_height="wrap_content"
+	android:background="#FF0"
+	android:orientation="horizontal"
+	android:columnCount="6"
+	android:columnOrderPreserved="false">
+	<!--columnOrderPreserved: 기본값은 true. 이 상태에선 그냥 순서대로 뷰가 위치한다.
+		false로 세팅하면, 아무것도 입력하지 않은 열이 존재할때,
+		그 열을 기준으로 우측의 뷰들을 기준열 좌측공간으로 꼬리가 보일때까지 당겨온다.
+	-->
+	<TextView
+		android:text="Name : "
+		android:layout_width="50dp"/>
+	<EditText
+		android:layout_width="170dp"/>
+	<Button
+		android:text="겹쳐질 버튼ㄴ"
+		android:layout_row="0"
+		android:layout_column="4"/>
+
+	<Button
+		android:text="수정"
+		android:layout_row="1"
+		android:layout_column="3"/>
+	<Button
+		android:text="추가"/>
+	<Button
+		android:text="삭제"/>
+
+</GridLayout>
+
