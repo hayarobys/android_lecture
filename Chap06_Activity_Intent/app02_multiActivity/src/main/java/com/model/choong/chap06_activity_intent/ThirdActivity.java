@@ -13,10 +13,12 @@ public class ThirdActivity extends AppCompatActivity{
 		setContentView(R.layout.activity_third);
 	}
 
+	// 2번 화면으로 전환
 	public void onBtnBack(View v){
 		finish();	// 현재 액티비티 종료
 	}
 
+	// 1번 화면으로 전환
 	public void onBtnBack2(View v){
 		Intent intent = new Intent(ThirdActivity.this, FirstActivity.class);
 		startActivity(intent);

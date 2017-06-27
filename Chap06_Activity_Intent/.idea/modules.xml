@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chap06_Activity_Intent.iml" filepath="$PROJECT_DIR$/Chap06_Activity_Intent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app02_multiActivity/app02_multiActivity.iml" filepath="$PROJECT_DIR$/app02_multiActivity/app02_multiActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app03_multiViewActivity/app03_multiViewActivity.iml" filepath="$PROJECT_DIR$/app03_multiViewActivity/app03_multiViewActivity.iml" />
     </modules>
   </component>
 </project>
