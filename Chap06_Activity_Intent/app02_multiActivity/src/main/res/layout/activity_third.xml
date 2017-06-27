@@ -12,12 +12,12 @@
 		android:layout_height="100dp"
 		android:textSize="20sp"
 		android:gravity="center"
-		android:text="1번 화면"/>
+		android:text="3번 화면"/>
 
 	<Button
 		android:id="@+id/button"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:text="2번 화면 전환"
-		android:onClick="onBtnActivity2"/>
+		android:onClick="onBtnBack"/>
 </LinearLayout>
