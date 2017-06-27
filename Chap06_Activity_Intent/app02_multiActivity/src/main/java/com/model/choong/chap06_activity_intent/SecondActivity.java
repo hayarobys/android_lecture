@@ -22,5 +22,6 @@ public class SecondActivity extends AppCompatActivity{
 	// 1번 화면으로 전환
 	public void onBtnBack(View v){
 		Intent intent = new Intent(SecondActivity.this, FirstActivity.class);
+		startActivity(intent);
 	}
 }
