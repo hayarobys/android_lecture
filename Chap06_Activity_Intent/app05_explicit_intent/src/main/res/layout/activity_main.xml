@@ -10,10 +10,20 @@
 
 	<EditText
 		android:id="@+id/editText"
-		android:layout_width="wrap_content"
+		android:layout_width="234dp"
 		android:layout_height="wrap_content"
 		app:layout_constraintTop_toTopOf="parent"
 		app:layout_constraintLeft_toLeftOf="parent"
-		android:text="Name"/>
+		android:hint="Write your name down!"/>
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="27dp"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintLeft_toRightOf="@+id/editText"
+		android:text="Button"
+		android:onClick="btnClick"/>
 
 </android.support.constraint.ConstraintLayout>
