@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/app03_multiViewActivity/app03_multiViewActivity.iml" filepath="$PROJECT_DIR$/app03_multiViewActivity/app03_multiViewActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app04_activity_lifecycle/app04_activity_lifecycle.iml" filepath="$PROJECT_DIR$/app04_activity_lifecycle/app04_activity_lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app05_explicit_intent/app05_explicit_intent.iml" filepath="$PROJECT_DIR$/app05_explicit_intent/app05_explicit_intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app06_StartActivityForResult/app06_StartActivityForResult.iml" filepath="$PROJECT_DIR$/app06_StartActivityForResult/app06_StartActivityForResult.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.model.choong.chap06_activity_intent.MainActivity">
+
+
+	<Button
+		android:id="@+id/button"
+		android:layout_width="290dp"
+		android:layout_height="62dp"
+		android:layout_marginLeft="50dp"
+		android:layout_marginTop="70dp"
+		android:text="서브 액티비티 호출"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"/>
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="237dp"
+		android:layout_height="91dp"
+		android:text="리턴받은 문자열(아래쪽)"
+		android:textSize="18sp"
+		tools:layout_editor_absoluteX="16dp"
+		tools:layout_editor_absoluteY="206dp"/>
+</android.support.constraint.ConstraintLayout>

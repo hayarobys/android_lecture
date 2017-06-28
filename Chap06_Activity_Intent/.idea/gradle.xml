@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app03_multiViewActivity" />
             <option value="$PROJECT_DIR$/app04_activity_lifecycle" />
             <option value="$PROJECT_DIR$/app05_explicit_intent" />
+            <option value="$PROJECT_DIR$/app06_StartActivityForResult" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

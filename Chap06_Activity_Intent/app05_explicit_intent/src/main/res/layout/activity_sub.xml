@@ -7,4 +7,14 @@
 	android:layout_height="match_parent"
 	tools:context="com.model.choong.chap06_activity_intent.SubActivity">
 
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="197dp"
+		android:layout_height="53dp"
+		android:text="TextView"
+		android:textSize="20sp"
+		android:textColor="#0067e6"
+		android:textStyle="bold"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"/>
 </android.support.constraint.ConstraintLayout>

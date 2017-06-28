@@ -15,15 +15,15 @@ public class MainActivity extends AppCompatActivity{
 		setContentView(R.layout.activity_main);
 
 		et = (EditText)findViewById(R.id.editText);
-	}
+	}	// onCreate(Bundle)
 
 	public void btnClick(View v){
 		String str = et.getText().toString();
 		Intent intent = new Intent(MainActivity.this, SubActivity.class);
 		intent.putExtra("key", str);	// putExta() - 다른 액티비티로 데이터를 전달하는 메소드
-		// map처럼 key, value를 이용한다.
+						// Map 형식의 [key, value]쌍으로 담아준다.
 
 		startActivity(intent);
 
-	}
-}
+	}	// btnClick(View)
+}	// class MainActivity{}
