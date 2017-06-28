@@ -16,14 +16,28 @@
 		android:layout_marginTop="70dp"
 		android:text="서브 액티비티 호출"
 		app:layout_constraintLeft_toLeftOf="parent"
-		app:layout_constraintTop_toTopOf="parent"/>
+		app:layout_constraintTop_toTopOf="parent"
+		android:onClick="btnClick"/>
 
 	<TextView
 		android:id="@+id/textView"
-		android:layout_width="237dp"
-		android:layout_height="91dp"
+		android:layout_width="236dp"
+		android:layout_height="63dp"
 		android:text="리턴받은 문자열(아래쪽)"
 		android:textSize="18sp"
-		tools:layout_editor_absoluteX="16dp"
-		tools:layout_editor_absoluteY="206dp"/>
+		android:layout_marginTop="47dp"
+		app:layout_constraintTop_toBottomOf="@+id/button"
+		android:layout_marginLeft="50dp"
+		app:layout_constraintLeft_toLeftOf="parent"/>
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="236dp"
+		android:layout_height="69dp"
+		android:layout_marginLeft="50dp"
+		android:layout_marginTop="0dp"
+		android:text="이곳에 출력..."
+		android:textSize="24sp"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView"/>
 </android.support.constraint.ConstraintLayout>

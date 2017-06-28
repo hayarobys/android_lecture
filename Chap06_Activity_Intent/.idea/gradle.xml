@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/app04_activity_lifecycle" />
             <option value="$PROJECT_DIR$/app05_explicit_intent" />
             <option value="$PROJECT_DIR$/app06_StartActivityForResult" />
+            <option value="$PROJECT_DIR$/app07_sms_service" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
