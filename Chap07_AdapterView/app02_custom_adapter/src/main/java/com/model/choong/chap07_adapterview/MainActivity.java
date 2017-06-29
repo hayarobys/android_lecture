@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView)findViewById(R.id.listView);
 
         CustomAdapter adapter =
-            new CustomAdapter(getApplicationContext(),
+                new CustomAdapter(getApplicationContext(),
                                             R.layout.list_item, list);
 
         listView.setAdapter(adapter);
