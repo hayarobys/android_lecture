@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chap07_AdapterView.iml" filepath="$PROJECT_DIR$/Chap07_AdapterView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app02_custom_adapter/app02_custom_adapter.iml" filepath="$PROJECT_DIR$/app02_custom_adapter/app02_custom_adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app03_Spinner/app03_Spinner.iml" filepath="$PROJECT_DIR$/app03_Spinner/app03_Spinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app04_GridView/app04_GridView.iml" filepath="$PROJECT_DIR$/app04_GridView/app04_GridView.iml" />
     </modules>
   </component>
 </project>

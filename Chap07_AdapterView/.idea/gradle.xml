@@ -9,6 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app02_custom_adapter" />
+            <option value="$PROJECT_DIR$/app03_Spinner" />
+            <option value="$PROJECT_DIR$/app04_GridView" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
