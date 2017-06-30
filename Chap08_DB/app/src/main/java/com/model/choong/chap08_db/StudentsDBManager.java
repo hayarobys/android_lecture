@@ -5,7 +5,9 @@
 package com.model.choong.chap08_db;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+
 
 public class StudentsDBManager{
 	private static StudentsDBManager dbManager;
@@ -34,7 +36,7 @@ public class StudentsDBManager{
 				"DEPARTMENT TEXT," +
 				"GRADE INTEGER" +
 			");"
-		);	// 안드로이드에서는 세미콜론을 붙인다.
+		);	// 안드로이드에서는 세미콜론을 붙여도 되고 안붙여도 된다.
 	}	// constructor StudentsDBManager(){}
 
 	public static StudentsDBManager getInstance(Context context){
@@ -47,13 +49,20 @@ public class StudentsDBManager{
 
 	public void insert(){
 		database.execSQL(
-			"INSERT INTO " + TABLE_STUDENTS + "(" +
-				"ID, NUMBER, NAME, DEPARTMENT, GRADE" +
-			")VALUES(NULL, '20170630', '홍길동', '컴퓨터공학과', 2);"
+			"INSERT INTO " + TABLE_STUDENTS + " VALUES(NULL, '20170630', '홍길동', '컴퓨터공학과', 2);"
 		);
 	}	// insert()
 
-	public void select(){
-		//	"SELECT * FROM" + TABLE_STUDENTS + ";"
+	public Cursor getSelect(){
+		Cursor cursor = database.rawQuery("SELECT * FROM " + TABLE_STUDENTS + ";", null);
+		return cursor;
+	}
+
+	public void update(String number){
+		database.execSQL("UPDATE " + TABLE_STUDENTS + " SET NAME = '이순신' WHERE NUMBER = " + number + ";");
+	}
+
+	public void delete(){
+		database.execSQL("DELETE FROM " + TABLE_STUDENTS + ";");	// SQLite는 세미콜론을 붙여도 되고 안붙여도 된다.
 	}
 }
