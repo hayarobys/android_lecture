@@ -34,7 +34,7 @@ public class CustomAdapter extends BaseAdapter{
 
     @Override
     public Object getItem(int position) { // ListView에서 보여줄 객체 지정
-        return list.get(position);                                 // (position 값은 동적으로 변함)
+        return list.get(position);        // (position 값은 동적으로 변함)
     }
 
     @Override
