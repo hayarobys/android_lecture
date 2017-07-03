@@ -20,13 +20,13 @@
 			android:id="@+id/btn1"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Button"/>
+			android:text="ANR 발생"/>
 
 		<Button
 			android:id="@+id/btn2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:text="Button"/>
+			android:text="ANR 제거"/>
 	</LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

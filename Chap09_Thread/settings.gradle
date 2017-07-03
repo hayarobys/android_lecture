@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':app02_progressdialog', ':app03_currenttime', ':app04_handler', ':app05_asynctask'

@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chap09_Thread.iml" filepath="$PROJECT_DIR$/Chap09_Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app02_progressdialog/app02_progressdialog.iml" filepath="$PROJECT_DIR$/app02_progressdialog/app02_progressdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app03_currenttime/app03_currenttime.iml" filepath="$PROJECT_DIR$/app03_currenttime/app03_currenttime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app04_handler/app04_handler.iml" filepath="$PROJECT_DIR$/app04_handler/app04_handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app05_asynctask/app05_asynctask.iml" filepath="$PROJECT_DIR$/app05_asynctask/app05_asynctask.iml" />
     </modules>
   </component>
 </project>
