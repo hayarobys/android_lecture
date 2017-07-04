@@ -1,1 +1,1 @@
-include ':app'
+include ':app01', ':app02_audio', ':app03_bcReceiverNotification'

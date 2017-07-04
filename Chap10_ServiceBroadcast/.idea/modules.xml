@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chap10_ServiceBroadcast.iml" filepath="$PROJECT_DIR$/Chap10_ServiceBroadcast.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app01/app01.iml" filepath="$PROJECT_DIR$/app01/app01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app02_audio/app02_audio.iml" filepath="$PROJECT_DIR$/app02_audio/app02_audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app03_bcReceiverNotification/app03_bcReceiverNotification.iml" filepath="$PROJECT_DIR$/app03_bcReceiverNotification/app03_bcReceiverNotification.iml" />
     </modules>
   </component>
 </project>
