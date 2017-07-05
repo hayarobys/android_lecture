@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<EditText
+			android:id="@+id/editURL"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ems="10"
+			android:text="http://www.naver.com"/>
+		<!--ems속성 - 여기선 "10개의 알파벳을 입력할만한 크기의 위젯을 만들어달라" 라는 의미-->
+
+		<Button
+			android:id="@+id/btnRequest"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="요청"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/result"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="메인 홈페이지 정보"/>
+
+</LinearLayout>
