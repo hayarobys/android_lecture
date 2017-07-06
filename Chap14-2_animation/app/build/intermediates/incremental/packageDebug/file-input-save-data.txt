@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Thu Jul 06 14:26:32 KST 2017
+1.base=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+1.file=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+4.set=ANDROID_RESOURCE
+2.base=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+count=5
+1.set=ANDROID_RESOURCE
+3.base=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.set=DEX
+0.base=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+3.file=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+0.file=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+4.base=C\:\\workspaces\\android\\Chap14-2_animation\\app\\build\\intermediates\\res\\resources-debug.ap_
